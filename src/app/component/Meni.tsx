@@ -1,11 +1,12 @@
+import Link from "next/link"
 import React from "react"
 
 function Meni({ title, address, Icon }) {
   return (
-    <a href={address} className="hover:text-amber-500 ">
+    <Link href={address} className="hover:text-amber-500 ">
       <Icon />
-      <h1 className="uppercase hidden sm:inline text-sm ">{title}</h1>
-    </a>
+      <p className="uppercase hidden sm:inline text-sm ">{title}</p>
+    </Link>
   )
 }
 
