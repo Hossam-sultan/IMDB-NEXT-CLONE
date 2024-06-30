@@ -9,7 +9,7 @@ function Header() {
     <div className="flex justify-between items-center p-3 max-w-6xl mx-auto">
       <div className="flex gap-4">
         <Meni title="Home" address="/" Icon={AiFillHome} />
-        <Meni title="About" address="/" Icon={BsFillInfoCircleFill} />
+        <Meni title="About" address="/about" Icon={BsFillInfoCircleFill} />
       </div>
       <div className="flex items-center gap-4">
         <Darkmode />
